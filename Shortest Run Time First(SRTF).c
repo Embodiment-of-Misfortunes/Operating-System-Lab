@@ -21,7 +21,6 @@ int main()
     struct proc p[10],temp;
     float avgtat=0,avgwt=0;
     int n,s,remain=0,time;
-    printf("<--SRTF Scheduling Algorithm (Preemptive)-->\n");
     printf("Enter Number of Processes: ");
     scanf("%d",&n);
     for(int i=0;i<n;i++)
